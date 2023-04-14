@@ -10,9 +10,9 @@ public static void selectSmallest(int[] anArray)
 
 Implement this method so that the contents of array `anArray` are modified in the following way.
 
-1. Set smallestIndex to -1.
-2. Start at the first element in the array.  This is the current element.
-3. Compare the current element with the element at index 0.  If current element is
+1. Set smallestIndex to 0.
+2. Start at the second element in the array (index = 1).  This is the current element.
+3. Compare the current element with the element at smallestIndex.  If current element is
     smaller, then set smallestIndex to the index of the current element.
 4. if there is a right neighboring element, then make that the current element
     and goto step 3, otherwise goto step 5.
